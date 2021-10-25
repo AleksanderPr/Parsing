@@ -10,8 +10,8 @@ class InstaSpider(scrapy.Spider):
     allowed_domains = ['instagram.com']
     start_urls = ['http://instagram.com/']
     inst_login_link = 'https://www.instagram.com/accounts/login/ajax/'
-    inst_login = 'Sigmoida_21'
-    inst_pwd = '#PWD_INSTAGRAM_BROWSER:10:1634981295:AVVQAKPZ0hkYOBh7T2W0NJYbcTQrsebzuBA50Ebade7GgxJy9FxKpTe7y8jvnW/i6HT/Kzt+yKcOsi80CcTPgnBAV/gPW93xyoAdiBBHpApRNO7puVTSaKC9tmr37Zx4nQ8JfodZ79qrOwOPBhNEy38SLrFQ'
+    inst_login = 
+    inst_pwd = 
     users_for_parse = ['ryzhiknata', 'oxana_metlinskaya']
     url = 'https://i.instagram.com/api/v1/friendships'
 
